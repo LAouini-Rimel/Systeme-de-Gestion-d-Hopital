@@ -9,24 +9,25 @@ services,hospitalisations,prescriptions et les lignes de prescriptions.
 
 
 Le projet met en pratique :
-- La modélisation d'une base de données relationnelle
-- La création des tables et des contraintes
-- L'utilisation du langage SQL
-- La programmation en PL/SQL (procédures, fonctions, triggers, curseurs...)
+             - La modélisation d'une base de données relationnelle
+             - La création des tables et des contraintes
+             - L'utilisation du langage SQL
+             - La programmation en PL/SQL (procédures, fonctions, triggers, curseurs...)
 
 
 🛢️Structure de la base de données:
-  👤Patient(idPatient PK, nom, prenom, dateNaissance,adresse, telephone)
-  👨‍⚕️Medecin(idMedecin PK, nom, specialite, salaire, idService FK)
-  🏥Service(idService PK, nomService, capacite)
-  📅RendezVous(idRdv PK, idPatient FK, idMedecin FK, dateRdv, statut)
-   Hospitalisation(idHosp PK, idPatient FK, idService FK,dateEntree,dateSortie)
-   Medicament(idMed PK, nom, stock, prix)
-   Prescription(idPrescPK, idPatient FK, idMedecin FK, datePresc)
-   Ligne_Prescription(idPrescFK, idMed FK, quantite, PK(idPresc,idMed))                            NB:(PK : clé primaire ; FK : clé étrangère)
+              👤Patient(idPatient PK, nom, prenom, dateNaissance,adresse, telephone)
+              👨‍⚕️Medecin(idMedecin PK, nom, specialite, salaire, idService FK)
+              🏥Service(idService PK, nomService, capacite)
+              📅RendezVous(idRdv PK, idPatient FK, idMedecin FK, dateRdv, statut)
+               Hospitalisation(idHosp PK, idPatient FK, idService FK,dateEntree,dateSortie)
+               Medicament(idMed PK, nom, stock, prix)
+               Prescription(idPrescPK, idPatient FK, idMedecin FK, datePresc)
+              Ligne_Prescription(idPrescFK, idMed FK, quantite, PK(idPresc,idMed))                                      NB:(PK : clé primaire ; FK : clé étrangère)
 
 
    ⚙️ Fonctionnalités réalisées:
+   
               🛠️Ajout des medecins
               🛠️Ajout des medicaments
               🛠️Ajout des patients
@@ -41,6 +42,7 @@ Le projet met en pratique :
 
               
   📂 Organisation du projet:
+  
            Gestion-Hopital-PLSQL/
               │
               ├── tables.sql
@@ -57,7 +59,10 @@ Le projet met en pratique :
               │
               └── README.md
                   Documentation du projet : présentation, fonctionnalités, structure
+
+                  
 👥 Auteur:LAouini Rimel
                💼 LinkedIn :https://www.linkedin.com/in/l-aouini-rimel-39aa09422/
                📧laouinirimel04@gmail.com
+               
 voici le lien du pdf du test:./Test.pdf
