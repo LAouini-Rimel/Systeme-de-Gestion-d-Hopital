@@ -62,7 +62,7 @@ Le projet met en pratique :
 
                   
 👥 Auteur:LAouini Rimel
-               💼 LinkedIn :https://www.linkedin.com/in/l-aouini-rimel-39aa09422/
-               📧laouinirimel04@gmail.com
+                                                                                                       💼 LinkedIn :https://www.linkedin.com/in/l-aouini-rimel-39aa09422/
+                                                                        📧laouinirimel04@gmail.com
                
-voici le lien du pdf du test:./Test.pdf
+voici le lien du pdf du test:https://github.com/LAouini-Rimel/Systeme-de-Gestion-d-Hopital/blob/main/Test.pdf
