@@ -54,8 +54,7 @@ Le projet met en pratique :
               │
               └── README.md
                   Documentation du projet : présentation, fonctionnalités, structure
-👥 Auteur:
-               LAouini Rimel
-       💼 LinkedIn :https://www.linkedin.com/in/l-aouini-rimel-39aa09422/
-       📧laouinirimel04@gmail.com
-test du projet:voici le lien du pdf
+👥 Auteur:LAouini Rimel
+               💼 LinkedIn :https://www.linkedin.com/in/l-aouini-rimel-39aa09422/
+               📧laouinirimel04@gmail.com
+voici le lien du pdf du test:./Test.pdf
